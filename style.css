@@ -13,7 +13,7 @@ body {
   height: auto;
   display: inline-flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
 
 .menu-bar {
   display: flex;
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 70px;
   padding: 20px;
@@ -67,8 +67,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 30px;
-  
-  
 }
 
 .header {
@@ -117,7 +115,6 @@ li {
   list-style: none;
 }
 
-
 .left-block {
   display: flex;
   flex-direction: column;
@@ -128,18 +125,19 @@ li {
   left: 16px;
 }
 
-.cards{
+.cards {
   width: 100%;
   height: 100%;
-  margin-top:20px;
+  margin-top: 20px;
 }
+
 .card-work {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
-  background-color:#fff;
+  background-color: #fff;
   padding: 16px;
   align-items: center;
   border: 1px solid #def1e6;
@@ -147,7 +145,7 @@ li {
   margin-bottom: 20px;
 }
 
-.snapshot{
+.snapshot {
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -156,7 +154,6 @@ li {
   background-size: cover;
   background-position: center;
   background-position: 100%;
-
 }
 
 .snapshot1 {
@@ -167,7 +164,6 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 .snapshot2 {
