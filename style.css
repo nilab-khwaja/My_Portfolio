@@ -440,7 +440,8 @@ li {
   padding: 0;
 }
 
-.divider1 ,.divider2 {
+.divider1,
+.divider2 {
   margin-top: 35px;
 }
 
