@@ -246,14 +246,14 @@ li {
 }
 
 .tags {
-  float:right;
+  display: flex;
+  flex-direction: row;
   height: 24px;
   gap: 8px;
   padding: 0;
 }
 
 .tags li {
-  display: inline-block;
   list-style-type: none;
   color: #6070ff;
   background-color: #ebebff;
