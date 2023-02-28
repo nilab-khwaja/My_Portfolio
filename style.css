@@ -106,7 +106,7 @@ body {
   width: 25%;
   display: flex;
   justify-content: space-between;
-  padding: 2px;
+  padding: 0 16px;
   align-items: center;
   flex-direction: row;
 }
@@ -457,4 +457,85 @@ li {
 
 .span {
   padding: 10px;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 70px;
+  margin-top: -170px;
+}
+
+.contact_header {
+  margin-top: 30px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  left: -213px;
+  color: #fff;
+  padding: 24px;
+}
+
+.contact_para {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  left: 24px;
+  color: #fff;
+  font-style: normal;
+  padding: 15px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact_form input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.contact_form textarea {
+  height: 170px;
+}
+
+.contact_form button {
+  padding: 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 5px;
+  height: 24px;
+  text-align: center;
+  color: #6070ff;
+}
+
+.contact_form button:hover {
+  text-decoration: underline;
 }
