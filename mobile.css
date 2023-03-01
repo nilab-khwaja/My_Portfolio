@@ -33,6 +33,7 @@ body {
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
+  top: 0;
 }
 
 .logo {
@@ -57,9 +58,7 @@ body {
   background-color: #6070ff;
 }
 
-.menu ul{
-  display: flex;
-  flex-direction: row;
+.menu ul {
   display: none;
 }
 
@@ -67,7 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: auto;
+  height: 100vh;
   width: 100%;
   padding: 50px 24px;
   background-image: url('img/header-shapes\ mobile@2x.jpg');
@@ -93,7 +92,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: hwb(217 34% 52%);
-
 }
 
 .connect a {
@@ -123,7 +121,10 @@ li {
   margin-top: 20px;
 }
 
-.card-work , .card-work_two ,.card-work_three, .card-work_four{
+.card-work,
+.card-work_two,
+.card-work_three,
+.card-work_four {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -137,7 +138,6 @@ li {
   margin-bottom: 20px;
 }
 
-
 .left-block {
   display: flex;
   flex-direction: column;
@@ -147,10 +147,6 @@ li {
   margin-top: 10px;
   left: 16px;
 }
-
-
-
-
 
 .snapshot {
   width: 100%;
@@ -171,8 +167,6 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  background-size: contain;
-  
 }
 
 .snapshot2 {
@@ -183,7 +177,6 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  background-size: contain;
 }
 
 .snapshot3 {
@@ -194,7 +187,6 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  background-size: contain;
 }
 
 .text-title {
@@ -308,7 +300,9 @@ li {
   color: #fff;
 }
 
-.card-work_desktop,.card-work_desktop_two,.card-work_desktop_three{
+.card-work_desktop,
+.card-work_desktop_two,
+.card-work_desktop_three {
   display: none;
 }
 
@@ -349,7 +343,7 @@ li {
 }
 
 .top-left a {
-  margin-top:-22px;
+  margin-top: -22px;
   text-decoration: none;
 }
 
@@ -384,7 +378,7 @@ li {
   color: #fff;
 }
 
-.top-right{
+.top-right {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -479,15 +473,13 @@ li {
   flex-direction: column;
   align-items: center;
   border-top-left-radius: 70px;
-  margin-top: 22px;
   background-image: url('img/contact\ form\ shapes-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top:-60px;
+  margin-top: -60px;
 }
 
 .contact-info h2 {
-  margin-top: 170px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -530,6 +522,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
 }
+
 .contact_form input::placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -576,4 +569,3 @@ textarea {
   background: #2230d2;
   color: #fff;
 }
-
