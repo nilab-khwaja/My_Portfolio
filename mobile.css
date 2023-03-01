@@ -57,11 +57,17 @@ body {
   background-color: #6070ff;
 }
 
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 718px;
+  height: auto;
   width: 100%;
   padding: 50px 24px;
   background-image: url('img/header-shapes\ mobile@2x.jpg');
@@ -78,8 +84,6 @@ body {
   line-height: 52px;
   width: 100%;
   color: #172b4d;
-  align-items: center;
-  left: 24px;
 }
 
 .text {
@@ -89,8 +93,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: hwb(217 34% 52%);
-  top: 276px;
-  left: 24px;
+
 }
 
 .connect a {
@@ -106,15 +109,34 @@ body {
 .social-connect ul {
   width: 25%;
   display: flex;
-  justify-content: space-between;
-  padding: 0 16px;
-  align-items: center;
   flex-direction: row;
 }
 
 li {
   list-style: none;
+  padding: 10px;
 }
+
+.cards {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.card-work , .card-work_two ,.card-work_three, .card-work_four{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid #def1e6;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
 
 .left-block {
   display: flex;
@@ -126,65 +148,53 @@ li {
   left: 16px;
 }
 
-.cards {
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-}
 
-.card-work {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  background-color: #fff;
-  padding: 16px;
-  align-items: center;
-  border: 1px solid #def1e6;
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
+
+
 
 .snapshot {
   width: 100%;
-  height: 100%;
+  height: 220px;
   border-radius: 8px;
   background-image: url("img/Snapshoot\ Portfolio.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  background-position: 100%;
+  padding: 100px;
 }
 
 .snapshot1 {
   width: 100%;
-  height: 100%;
+  height: 220px;
   border-radius: 8px;
   background-image: url("img/Snapshoot\ Portfolio\ \(1\).jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
+  background-size: contain;
+  
 }
 
 .snapshot2 {
   width: 100%;
-  height: 100%;
+  height: 220px;
   border-radius: 8px;
   background-image: url("img/Snapshoot\ Portfolio\ \(2\).jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
+  background-size: contain;
 }
 
 .snapshot3 {
   width: 100%;
-  height: 100%;
+  height: 220px;
   border-radius: 8px;
   background-image: url("img/Snapshoot\ Portfolio\ \(3\).jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: 100%;
+  background-size: contain;
 }
 
 .text-title {
@@ -298,29 +308,23 @@ li {
   color: #fff;
 }
 
+.card-work_desktop,.card-work_desktop_two,.card-work_desktop_three{
+  display: none;
+}
+
 .about-myself {
   width: 100%;
-  height: 1263px;
-  top: 4769px;
-  left: 100%;
+  height: 1300px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 24px;
+  padding: 40px;
   gap: 24px;
   border-top-right-radius: 70px;
 }
 
-.top {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  width: 100%;
-  height: 409px;
-}
-
-.top h1 {
+.top-left h1 {
   width: 100%;
   height: 101px;
   font-family: 'Poppins', sans-serif;
@@ -333,7 +337,7 @@ li {
   color: #172b4d;
 }
 
-.top p {
+.top-left p {
   width: 100%;
   height: 144px;
   font-family: 'Poppins', sans-serif;
@@ -344,7 +348,8 @@ li {
   color: #344563;
 }
 
-.top a {
+.top-left a {
+  margin-top:-22px;
   text-decoration: none;
 }
 
@@ -379,7 +384,13 @@ li {
   color: #fff;
 }
 
-.about-myself .skill {
+.top-right{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-right .skill {
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -389,7 +400,7 @@ li {
   left: 24px;
 }
 
-.lang-skill {
+.top-right .lang-skill {
   padding: 20px 0;
 }
 
@@ -409,7 +420,7 @@ li {
   margin-top: -20px;
 }
 
-.show-skill {
+.top-right .show-skill {
   display: flex;
   flex-direction: column;
   padding: 20px 0;
@@ -468,13 +479,14 @@ li {
   flex-direction: column;
   align-items: center;
   border-top-left-radius: 70px;
-  margin-top: -155px;
+  margin-top: 22px;
   background-image: url('img/contact\ form\ shapes-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top:-60px;
 }
 
-.contact_header {
+.contact-info h2 {
   margin-top: 170px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -486,7 +498,7 @@ li {
   padding: 24px;
 }
 
-.contact_para {
+.contact-info p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
