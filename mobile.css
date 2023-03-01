@@ -518,9 +518,24 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
 }
+.contact_form input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #172b4d;
+}
 
 .contact_form textarea {
   height: 170px;
+}
+
+.contact_form textarea::placeholder {
+  font-family: 'Poppins'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
 
 .contact_form button {
@@ -549,3 +564,4 @@ textarea {
   background: #2230d2;
   color: #fff;
 }
+
