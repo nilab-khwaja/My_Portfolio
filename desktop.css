@@ -7,7 +7,7 @@
 
   body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    background-color: #e5e5e5;
+    background-color: #fff;
     font-style: normal;
   }
 
@@ -45,9 +45,19 @@
     background-image: url('img/Header\ bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: auto;
     height: 100vh;
     background-color: #fff;
+    margin-top: 35px;
+  }
+
+  .t-link {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    text-decoration: none;
   }
 
   .cards {
@@ -140,6 +150,30 @@
   .top-left {
     padding: 20px;
     margin-bottom: 30px;
+  }
+
+  .show-skill ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .show-skill ul li {
+    width: 122px;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    background: #f7f7f9;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    padding: 10px;
+    margin: 0 4px;
+    align-items: flex-start;
   }
 
   .contact-form {
