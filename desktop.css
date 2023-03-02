@@ -1,0 +1,215 @@
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #e5e5e5;
+    font-style: normal;
+  }
+
+  .menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    margin-right: 100px;
+    padding: 5px;
+  }
+
+  .logo {
+    margin-left: 100px;
+    padding: 5px;
+  }
+
+  .menu ul {
+    display: flex;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50px;
+  }
+
+  .menu ul li {
+    padding: 24px;
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 150px;
+    background-image: url('img/Header\ bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    background-color: #fff;
+    margin-top: 55px;
+  }
+
+  .t-link {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    text-decoration: none;
+  }
+
+  .cards {
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+  }
+
+  .left-block {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card-work_desktop_two button {
+    background-color: #4053fc;
+    color: #fff;
+  }
+
+  .snapshot {
+    padding: 155px;
+    background-image: url('img/desktop\ img\ 1.jpg');
+  }
+
+  .card-work_two,
+  .card-work_three,
+  .card-work_four,
+  .card-work {
+    display: none;
+  }
+
+  .card-work_desktop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+    grid-column-gap: 20px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #def1e6;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .snapshot1 {
+    padding: 155px;
+    background-image: url("img/Desktop-card\ 2.jpg");
+  }
+
+  .snapshot2 {
+    padding: 155px;
+    background-image: url("img/Snapshoot\ Portfolio.jpg");
+  }
+
+  .snapshot3 {
+    padding: 155px;
+    background-image: url("img/Snapshoot\ Portfolio\ \(1\).jpg");
+  }
+
+  .about-myself {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    justify-content: space-between;
+    border-top-right-radius: 70px;
+    margin-top: 30px;
+  }
+
+  .top-right {
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .top-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 15px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .show-skill ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .show-skill ul li {
+    width: 122px;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    background: #f7f7f9;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    padding: 10px;
+    margin: 0 4px;
+    align-items: flex-start;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    height: 900px;
+    margin-top: -70px;
+    background-image: url('img/contact\ form\ background\ shapes.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-info {
+    width: 569px;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .contact_form {
+    width: 447px;
+    text-align: center;
+    padding: 25px;
+  }
+}
