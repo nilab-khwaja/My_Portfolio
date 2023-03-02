@@ -16,29 +16,28 @@
     display: flex;
     justify-content: space-between;
     top: 0;
-
-    
-  
   }
 
   .hamburger {
     display: none;
   }
-  .menu{
+
+  .menu {
     margin-right: 100px;
     padding: 5px;
   }
 
-  .logo{
+  .logo {
     margin-left: 100px;
     padding: 5px;
   }
+
   .menu ul {
     display: flex;
     float: right;
     text-align: center;
     text-decoration: none;
-    margin-left: 50px
+    margin-left: 50px;
   }
 
   .menu ul li {
@@ -46,7 +45,6 @@
     color: #344563;
     font-weight: 500;
     font-size: 15px;
-    
   }
 
   .headline {
@@ -86,7 +84,7 @@
     gap: 30px;
   }
 
-  .card-work_desktop_one{
+  .card-work_desktop_one {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -115,6 +113,7 @@
     border: 1px solid #def1e6;
     justify-content: space-around;
   }
+
   .card-work_desktop_two button {
     background-color: #4053fc;
     color: #fff;
@@ -129,8 +128,8 @@
     font-size: 32px;
     line-height: 40px;
     color: #172b4d;
-    padding:5px 0 ;
-    margin-top:0;
+    padding: 5px 0;
+    margin-top: 0;
   }
 
   .snapshot {
@@ -161,10 +160,9 @@
     justify-content: space-around;
   }
 
-  .snapshot1{
+  .snapshot1 {
     padding: 155px;
     background-image: url("img/Desktop-card\ 2.jpg");
-    
   }
 
   .snapshot2 {
@@ -233,7 +231,6 @@
     background-image: url('img/contact\ form\ background\ shapes.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    
   }
 
   .contact-info {
@@ -246,7 +243,5 @@
     width: 447px;
     text-align: center;
     padding: 25px;
-    
   }
-
 }
