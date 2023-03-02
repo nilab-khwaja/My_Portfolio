@@ -7,7 +7,7 @@
 
   body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    background-color: #fff;
+    background-color: #e5e5e5;
     font-style: normal;
   }
 
@@ -16,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     top: 0;
+    background-color: #fff;
+    padding: 10px;
   }
 
   .hamburger {
@@ -58,7 +60,7 @@
     background-size: 100%;
     height: 100vh;
     background-color: #fff;
-    margin-top: 35px;
+    margin-top: 55px;
   }
 
   .t-link {
@@ -73,63 +75,23 @@
 
   .cards {
     height: auto;
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
   }
 
   .left-block {
     padding: 10px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
   }
 
-  .card-work_desktop_one {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: 100%;
-    height: auto;
-    grid-column-gap: 20px;
-    padding: 40px;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 16px;
-    margin-bottom: 2px;
-    border: 1px solid #def1e6;
-    justify-content: space-around;
-  }
 
-  .card-work_desktop_two {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: 100%;
-    height: auto;
-    grid-column-gap: 20px;
-    padding: 40px;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 16px;
-    margin-bottom: 2px;
-    border: 1px solid #def1e6;
-    justify-content: space-around;
-  }
 
   .card-work_desktop_two button {
     background-color: #4053fc;
     color: #fff;
-  }
-
-  .text-title {
-    width: 100%;
-    position: flex;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    color: #172b4d;
-    padding: 5px 0;
-    margin-top: 0;
   }
 
   .snapshot {
@@ -144,20 +106,20 @@
     display: none;
   }
 
-  .card-work_desktop,
-  .card-work_desktop_three {
+  .card-work_desktop {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
     height: auto;
     grid-column-gap: 20px;
-    padding: 40px;
+    padding: 0 40px;
     box-sizing: border-box;
     background-color: #fff;
     align-items: center;
     border-radius: 16px;
     border: 1px solid #def1e6;
     justify-content: space-around;
+    margin-top: 30px;
   }
 
   .snapshot1 {
@@ -185,22 +147,30 @@
     height: auto;
     justify-content: space-between;
     border-top-right-radius: 70px;
+    margin-top: 30px;
   }
 
   .top-right {
+    margin-top: 30px;
     padding: 20px;
     margin-bottom: 30px;
+    height: auto;
   }
 
   .top-left {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 15px;
     margin-bottom: 30px;
+    height: auto;
   }
 
   .show-skill ul {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 25px;
   }
 
   .show-skill ul li {
@@ -220,6 +190,7 @@
     margin: 0 4px;
     align-items: flex-start;
   }
+
 
   .contact-form {
     display: flex;
