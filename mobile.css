@@ -568,3 +568,11 @@ textarea {
   background: #2230d2;
   color: #fff;
 }
+
+.contact-form:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
