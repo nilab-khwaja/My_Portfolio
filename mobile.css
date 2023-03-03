@@ -121,7 +121,7 @@ li {
   margin-top: 20px;
 }
 
-.card-work{
+.card-work {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -250,7 +250,8 @@ li {
   flex-direction: row;
   height: 24px;
   gap: 8px;
-  padding: 0;
+  margin-bottom: 5px;
+  justify-items: flex-start;
 }
 
 .tags li {
