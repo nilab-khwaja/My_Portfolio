@@ -95,7 +95,15 @@
   .snapshot {
     padding: 155px;
     background-image: url('img/desktop\ img\ 1.jpg');
+
   }
+  .snapshot:hover{
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+}
 
   .card-work_two,
   .card-work_three,
@@ -124,17 +132,38 @@
     padding: 155px;
     background-image: url("img/Desktop-card\ 2.jpg");
   }
+  .snapshot1:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 
   .snapshot2 {
     padding: 155px;
     background-image: url("img/Snapshoot\ Portfolio.jpg");
   }
+  .snapshot2:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 
   .snapshot3 {
     padding: 155px;
     background-image: url("img/Snapshoot\ Portfolio\ \(1\).jpg");
   }
 
+  .snapshot3:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
   .about-myself {
     display: grid;
     grid-template-columns: 50% 50%;
