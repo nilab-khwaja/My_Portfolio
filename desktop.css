@@ -32,6 +32,9 @@
   .logo {
     margin-left: 100px;
     padding: 5px;
+    transition: all 1s ease-in-out;
+    font-size: 20px;
+    text-shadow: #4053fc;
   }
 
   .menu ul {
@@ -61,6 +64,7 @@
     height: 100vh;
     background-color: #fff;
     margin-top: 55px;
+    transition: padding 0.3s linear;
   }
 
   .t-link {
@@ -71,11 +75,13 @@
     line-height: 24px;
     color: #7f8cff;
     text-decoration: none;
+    padding: 35px 0;
+    transition: all 0.5 ease-in;
   }
 
   .cards {
     height: auto;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     background-color: #e3e3e3;
   }
@@ -97,9 +103,14 @@
     background-image: url('img/desktop\ img\ 1.jpg');
   }
 
-  .card-work_two,
-  .card-work_three,
-  .card-work_four,
+  .snapshot:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
   .card-work {
     display: none;
   }
@@ -108,7 +119,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
-    height: auto;
+    height: 400px;
     grid-column-gap: 20px;
     padding: 0 40px;
     box-sizing: border-box;
@@ -116,7 +127,7 @@
     align-items: center;
     border-radius: 16px;
     border: 1px solid #def1e6;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 30px;
   }
 
@@ -125,14 +136,43 @@
     background-image: url("img/Desktop-card\ 2.jpg");
   }
 
+  .snapshot1:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
   .snapshot2 {
     padding: 155px;
     background-image: url("img/Snapshoot\ Portfolio.jpg");
   }
 
+  .snapshot2:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
   .snapshot3 {
     padding: 155px;
     background-image: url("img/Snapshoot\ Portfolio\ \(1\).jpg");
+  }
+
+  .snapshot3:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  .btn,
+  .btn1 {
+    transition: background 0.7s linear;
   }
 
   .about-myself {
@@ -207,9 +247,39 @@
     padding: 25px;
   }
 
+  .contact-info:hover {
+    transform: translate(10px, 10px);
+  }
+
   .contact_form {
     width: 447px;
     text-align: center;
     padding: 25px;
+  }
+
+  .contact_form input:focus {
+    transform: scale(1.1);
+  }
+
+  .tags ul {
+    gap: 15px;
+    margin-bottom: 10px;
+    animation-duration: 1s;
+    animation-name: tagAnimation;
+  }
+
+  .tags ul li {
+    height: 40px;
+    padding: 10px;
+  }
+
+  @keyframes tagAnimation {
+    from {
+      height: 24px;
+    }
+
+    to {
+      height: 30px;
+    }
   }
 }
