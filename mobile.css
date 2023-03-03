@@ -121,10 +121,7 @@ li {
   margin-top: 20px;
 }
 
-.card-work,
-.card-work_two,
-.card-work_three,
-.card-work_four {
+.card-work{
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -300,10 +297,7 @@ li {
   color: #fff;
 }
 
-.card-work_desktop,
-.card-work_desktop_two,
-.card-work_desktop_three,
-.card-work_desktop_one {
+.card-work_desktop {
   display: none;
 }
 
@@ -474,9 +468,10 @@ li {
   flex-direction: column;
   align-items: center;
   border-top-left-radius: 70px;
-  background-image: url('img/contact\ form\ shapes-mobile.png');
+  background-image: url('img/contact\ form\ background\ shapes.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position: fixed;
   margin-top: -60px;
 }
 
