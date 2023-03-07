@@ -103,6 +103,7 @@ body {
   text-decoration: none;
 }
 
+
 .social-connect ul {
   width: 25%;
   display: flex;
@@ -360,18 +361,18 @@ li {
   line-height: 24px;
   align-items: center;
   text-align: center;
-  color: #396df2;
+  color: #396DF2;
   letter-spacing: 0.03em;
 }
 
 .btn1:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color:#fff;
+  color: #6070FF;
 }
 
 .btn1:active {
-  background: #2230d2;
-  color: #fff;
+  background: #fff;
+  color: #396DF2;
 }
 
 .top-right {
