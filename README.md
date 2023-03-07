@@ -56,7 +56,13 @@ Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here you can see a live demo of my portfolio
+
+- [Live Demo Link](https://nilab-khwaja.github.io/nilabportfolio.github.io/)
 
 
 <!-- GETTING STARTED -->
