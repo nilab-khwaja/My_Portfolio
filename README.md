@@ -62,7 +62,7 @@ Javascript
 
 > Here you can see a live demo of my portfolio
 
-- [Live Demo Link](https://nilab-khwaja.github.io/nilabportfolio.github.io/)
+- [Live Demo Link](https://nilab-khwaja.github.io/My_Portfolio/)
 
 
 <!-- GETTING STARTED -->
