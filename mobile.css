@@ -103,6 +103,11 @@ body {
   text-decoration: none;
 }
 
+.connect a:default{
+  background: #FFFFFF;
+  color: #396DF2;
+}
+
 
 .social-connect ul {
   width: 25%;
@@ -277,26 +282,27 @@ li {
   width: 124px;
   left: 0;
   top: 700;
-  border: 1px solid #6070ff;
+  border: 1px solid #6070FF;
   border-radius: 8px;
   text-align: center;
-  background-color: #fff;
+  background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+  
 }
 
 .btn:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color:  #6070FF;
+  color: #FFFFFF;
 }
 
-.btn:active {
-  background: #2230d2;
-  color: #fff;
+.btn:focus {
+  background: #FFFFFF;
+  color: #396DF2;
 }
 
 .card-work_desktop {
@@ -351,9 +357,9 @@ li {
   gap: 10px;
   width: 162px;
   height: 48px;
-  border: 1px solid #6070ff;
+  border: 1px solid  #6070FF;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -361,18 +367,19 @@ li {
   line-height: 24px;
   align-items: center;
   text-align: center;
-  color: #396DF2;
+  color: #6070FF;
   letter-spacing: 0.03em;
 }
 
 .btn1:hover {
-  background-color:#fff;
+  background-color:#FFFFFF;
   color: #6070FF;
 }
 
-.btn1:active {
-  background: #fff;
+.btn1:focus {
+  background:#FFFFFF ;
   color: #396DF2;
+  outline: #4D90FE;
 }
 
 .top-right {
