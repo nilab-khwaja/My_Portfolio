@@ -105,7 +105,7 @@ body {
 
 .connect a:default{
   background: #FFFFFF;
-  color: #396DF2;
+  color: #5968EE;
 }
 
 
@@ -296,13 +296,13 @@ li {
 }
 
 .btn:hover {
-  background-color:  #6070FF;
-  color: #FFFFFF;
+  background-color:  #FFFFFF;
+  color: #6070FF;
 }
 
 .btn:focus {
   background: #FFFFFF;
-  color: #396DF2;
+  color:  #6070FF;
 }
 
 .card-work_desktop {
@@ -373,13 +373,13 @@ li {
 
 .btn1:hover {
   background-color:#FFFFFF;
-  color: #6070FF;
+  color: #396DF2;
 }
 
 .btn1:focus {
   background:#FFFFFF ;
-  color: #396DF2;
-  outline: #4D90FE;
+  color:  #396DF2;
+
 }
 
 .top-right {
