@@ -67,7 +67,7 @@
     transition: padding 0.3s linear;
   }
 
-  .connect {
+  .connect a{
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -91,11 +91,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-  }
-
-  .card-work_desktop_two button {
-    background-color: #4053fc;
-    color: #fff;
   }
 
   .snapshot {

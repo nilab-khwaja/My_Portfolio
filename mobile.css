@@ -99,13 +99,12 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #7F8CFF;
   text-decoration: none;
 }
 
-.connect a:default{
-  background: #FFFFFF;
-  color: #396DF2;
+.connect a:hover{
+  color:#2230D2;
 }
 
 
@@ -133,7 +132,6 @@ li {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background-color: #fff;
   padding: 20px;
   align-items: center;
   border: 1px solid #def1e6;
@@ -282,10 +280,9 @@ li {
   width: 124px;
   left: 0;
   top: 700;
-  border: 1px solid #6070FF;
+  border: 1px solid #7F8CFF;
   border-radius: 8px;
   text-align: center;
-  background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -298,11 +295,12 @@ li {
 .btn:hover {
   background-color:  #6070FF;
   color: #FFFFFF;
+  box-shadow:rgba(64, 83, 252, 0.24);
 }
 
-.btn:focus {
-  background: #FFFFFF;
-  color: #396DF2;
+.btn:active {
+  background:#2230D2;
+  color:#fff ;
 }
 
 .card-work_desktop {
@@ -357,9 +355,8 @@ li {
   gap: 10px;
   width: 162px;
   height: 48px;
-  border: 1px solid  #6070FF;
+  border: 1px solid #7F8CFF;
   border-radius: 8px;
-  background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -367,20 +364,21 @@ li {
   line-height: 24px;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #396df2;
   letter-spacing: 0.03em;
 }
 
-.btn1:hover {
-  background-color:#FFFFFF;
-  color: #6070FF;
+.btn1:hover{
+  background-color:  #6070FF;
+  color: #FFFFFF;
+  box-shadow:rgba(64, 83, 252, 0.24);
 }
 
-.btn1:focus {
-  background:#FFFFFF ;
-  color: #396DF2;
-  outline: #4D90FE;
+.btn1:active {
+  background:#2230D2;
+  color:#fff ;
 }
+
 
 .top-right {
   display: flex;
@@ -565,15 +563,16 @@ textarea {
   line-height: 5px;
   height: 24px;
   text-align: center;
-  color: #6070ff;
+  color: #6070FF;
+  background-color: #FFFFFF;
 }
 
 .contact_form button:hover {
-  background-color: #6070ff;
+  background-color: #6070FF;
   color: #fff;
 }
 
-.contact_form button:active {
+.contact_form button:hover {
   background: #2230d2;
   color: #fff;
 }
