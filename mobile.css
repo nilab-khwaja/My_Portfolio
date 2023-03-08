@@ -99,13 +99,14 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #292D52;
   text-decoration: none;
+  background-color: #FFFFFF;
 }
 
-.connect a:default{
+.connect a:hover{
   background: #FFFFFF;
-  color: #5968EE;
+  color: #000080;
 }
 
 
@@ -282,7 +283,7 @@ li {
   width: 124px;
   left: 0;
   top: 700;
-  border: 1px solid #6070FF;
+  border: 1px solid #333860;
   border-radius: 8px;
   text-align: center;
   background-color: #FFFFFF;
@@ -291,19 +292,19 @@ li {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
+  color: #25469B;
   
 }
 
 .btn:hover {
-  background-color:  #FFFFFF;
-  color: #6070FF;
+  background-color:  #043FDC;
+  color:  #FFFFFF;
 }
 
-.btn:focus {
+/* .btn:focus {
   background: #FFFFFF;
-  color:  #6070FF;
-}
+  color:  #293ef8;
+} */
 
 .card-work_desktop {
   display: none;
@@ -357,7 +358,7 @@ li {
   gap: 10px;
   width: 162px;
   height: 48px;
-  border: 1px solid  #6070FF;
+  border: 1px solid  #3C416C;
   border-radius: 8px;
   background-color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
@@ -367,20 +368,15 @@ li {
   line-height: 24px;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #3E30B4;
   letter-spacing: 0.03em;
 }
 
 .btn1:hover {
-  background-color:#FFFFFF;
-  color: #396DF2;
+  background-color: #2A36A2;
+  color: #FFFFFF;
 }
 
-.btn1:focus {
-  background:#FFFFFF ;
-  color:  #396DF2;
-
-}
 
 .top-right {
   display: flex;
