@@ -65,18 +65,18 @@
     background-color: #fff;
     margin-top: 55px;
     transition: padding 0.3s linear;
+    gap: 0;
   }
 
-  .t-link {
-    height: 24px;
+  .connect a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
     text-decoration: none;
-    padding: 35px 0;
+    padding: 0;
     transition: all 0.5 ease-in;
+    top: -30px;
+    height: auto;
   }
 
   .cards {
@@ -200,8 +200,10 @@
     flex-direction: column;
     margin-top: 30px;
     padding: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     height: auto;
+    gap: 0;
+    justify-items: auto;
   }
 
   .show-skill ul {
