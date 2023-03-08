@@ -103,8 +103,14 @@ body {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .connect a:hover{
   color:#2230D2;
+=======
+.connect a:default{
+  background: #FFFFFF;
+  color: #5968EE;
+>>>>>>> 4863e36e399f98be36866436332a69d350aca3c2
 }
 
 
@@ -293,6 +299,7 @@ li {
 }
 
 .btn:hover {
+<<<<<<< HEAD
   background-color:  #6070FF;
   color: #FFFFFF;
   box-shadow:rgba(64, 83, 252, 0.24);
@@ -301,6 +308,15 @@ li {
 .btn:active {
   background:#2230D2;
   color:#fff ;
+=======
+  background-color:  #FFFFFF;
+  color: #6070FF;
+}
+
+.btn:focus {
+  background: #FFFFFF;
+  color:  #6070FF;
+>>>>>>> 4863e36e399f98be36866436332a69d350aca3c2
 }
 
 .card-work_desktop {
@@ -368,6 +384,7 @@ li {
   letter-spacing: 0.03em;
 }
 
+<<<<<<< HEAD
 .btn1:hover{
   background-color:  #6070FF;
   color: #FFFFFF;
@@ -377,6 +394,17 @@ li {
 .btn1:active {
   background:#2230D2;
   color:#fff ;
+=======
+.btn1:hover {
+  background-color:#FFFFFF;
+  color: #396DF2;
+}
+
+.btn1:focus {
+  background:#FFFFFF ;
+  color:  #396DF2;
+
+>>>>>>> 4863e36e399f98be36866436332a69d350aca3c2
 }
 
 
