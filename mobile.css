@@ -468,7 +468,7 @@ li {
 .contact-form {
   width: 100%;
   height: auto;
-  background-color: #6070ff;
+  background-color: #3E48A3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -561,6 +561,9 @@ textarea {
   height: 24px;
   text-align: center;
   
+}
+.btn3{
+  background-color: #F4F4F4;
 }
 
 /* .contact_form button:hover {
