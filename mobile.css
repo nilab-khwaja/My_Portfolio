@@ -102,6 +102,7 @@ body {
   color: #292d52;
   text-decoration: none;
   background-color: #fff;
+  padding-top: 15px;
 }
 
 .connect a:hover {
@@ -342,11 +343,6 @@ li {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-}
-
-.top-left {
-  margin-top: -22px;
-  text-decoration: none;
 }
 
 .btn1 {
