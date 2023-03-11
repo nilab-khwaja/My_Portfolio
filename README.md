@@ -37,12 +37,6 @@ The first my_Profolio project using css and html. that is first mobile portfolio
 This is a responsive Portfolio and you can use it on different screen size.
 
 
- Here you can see description of my portfolio
-
-- [Description Link](https://www.loom.com/share/f059a4b364bd46b5ae6eff7b47ebf057)
-
-
-
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML
@@ -70,6 +64,11 @@ Javascript
 > Here you can see a live demo of my portfolio
 
 - [Live Demo Link](https://nilab-khwaja.github.io/My_Portfolio/)
+
+> Here you can see description of my portfolio
+
+- [Description Link](https://www.loom.com/share/f059a4b364bd46b5ae6eff7b47ebf057)
+
 
 
 
