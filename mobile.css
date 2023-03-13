@@ -32,7 +32,6 @@ body {
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  top: 0;
 }
 
 .logo {
@@ -49,17 +48,52 @@ body {
   display: flex;
 }
 
+.hamburger{
+ display: block;
+ cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
 .bar {
   margin: 5px;
   height: 3px;
   width: 30px;
   display: block;
   background-color: #6070ff;
+  transition: all 0.3s ease-in-out;
+}
+li{
+  list-style: none;
 }
 
-.menu ul {
-  display: none;
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  left:-100%;
+  position: fixed;
+  top:70px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.3s;
 }
+ .nav-item{
+  text-decoration: none;
+  margin: 18px 0;
+ }
+ .menu.active{
+  left:0;
+ }
+
 
 .headline {
   display: flex;

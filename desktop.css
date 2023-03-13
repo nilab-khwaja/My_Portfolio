@@ -23,10 +23,12 @@
   .hamburger {
     display: none;
   }
-
+ .nav-item a{
+  text-decoration: none;
+ }
   .menu {
-    margin-right: 100px;
-    padding: 5px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .logo {
