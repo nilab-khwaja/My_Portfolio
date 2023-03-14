@@ -34,9 +34,11 @@ body {
   align-items: center;
   top: 0;
 }
+
 .desktop-menu{
   display: none;
 }
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -76,7 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     transition: 0.3s;
     background-color: #6070ffb0;
