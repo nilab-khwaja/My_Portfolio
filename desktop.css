@@ -23,16 +23,9 @@
   .hamburger {
     display: none;
   }
- .nav-item a{
-  text-decoration: none;
- }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap:5px;
-    
-  }
+ 
+  
+
 
   .logo {
     margin-left: 100px;
@@ -42,15 +35,21 @@
     text-shadow: #4053fc;
   }
 
-  .menu ul {
+  .menu {
+    display: none;
+  }
+  
+  .desktop-menu {
     display: flex;
+    margin-right: 100px;
     float: right;
     text-align: center;
     text-decoration: none;
+    justify-content: space-around;
     margin-left: 50px;
   }
 
-  .menu ul li {
+  .desktop-menu  li {
     padding: 24px;
     color: #344563;
     font-weight: 500;

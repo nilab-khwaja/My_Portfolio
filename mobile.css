@@ -35,6 +35,10 @@ body {
   top: 0;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
