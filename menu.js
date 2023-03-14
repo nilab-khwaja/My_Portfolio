@@ -13,5 +13,6 @@ const navLink = document.querySelectorAll('.nav-link');
 function closeMenu() {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
+  body.classList.remove('scroll-lock');
 }
 navLink.forEach((n) => n.addEventListener('click', closeMenu));
