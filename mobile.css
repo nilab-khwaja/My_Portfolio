@@ -34,7 +34,9 @@ body {
   align-items: center;
   top: 0;
 }
-
+.desktop-menu{
+  display: none;
+}
 .logo {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -52,7 +54,6 @@ body {
 .hamburger {
   display: block;
   cursor: pointer;
-  color: blue;
 }
 
 .bar {
@@ -64,6 +65,7 @@ body {
     transition: all 0.3s ease-in-out;
     margin-left: 100px;
     background-color: #2230d2;
+    
 }
 
 .menu  {
@@ -74,8 +76,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 90%;
-    height: 95%;
+    width: 100%;
+    height: 100vh;
     transition: 0.3s;
     background-color: #6070ffb0;
     backdrop-filter: blur(5px);
@@ -85,9 +87,6 @@ body {
 .nav-link {
   color: #fff;
   height: 30px;
-  left: 0;
-  right: 68px;
-  top: calc(50% - 24px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -97,7 +96,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-
+   margin-left: 1rem;
   justify-content: space-between;
 }
 
