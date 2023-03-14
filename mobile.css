@@ -35,7 +35,7 @@ body {
   top: 0;
 }
 
-.desktop-menu{
+.desktop-menu {
   display: none;
 }
 
@@ -60,30 +60,29 @@ body {
 
 .bar {
   display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    margin-left: 100px;
-    background-color: #2230d2;
-    
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-left: 100px;
+  background-color: #2230d2;
 }
 
-.menu  {
+.menu {
   position: fixed;
-    left: -100%;
-    top: 0;
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 80%;
-    height: 100vh;
-    transition: 0.3s;
-    background-color: #6070ffb0;
-    backdrop-filter: blur(5px);
-    padding-bottom: 500px;
+  left: -100%;
+  top: 0;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  height: 100vh;
+  transition: 0.3s;
+  background-color: #6070ffb0;
+  backdrop-filter: blur(5px);
+  padding-bottom: 500px;
 }
 
 .nav-link {
@@ -98,10 +97,9 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-   margin-left: 1rem;
+  margin-left: 1rem;
   justify-content: space-between;
 }
-
 
 .menu.active {
   left: 0;
@@ -127,6 +125,7 @@ body {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -156,7 +155,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: hwb(217 34% 52%);
+  color: #686fbd;
 }
 
 .connect a {
@@ -261,7 +260,6 @@ li {
 
 .text-title {
   width: 100%;
-  position: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -348,7 +346,6 @@ li {
   padding: 12px;
   width: 124px;
   left: 0;
-  top: 700;
   border: 1px solid #333860;
   border-radius: 8px;
   text-align: center;
@@ -461,7 +458,6 @@ li {
   font-size: 20px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  font-style: none;
   font-style: normal;
 }
 
@@ -535,7 +531,6 @@ li {
   background-image: url('img/contact\ form\ background\ shapes.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: fixed;
   margin-top: -60px;
 }
 
@@ -598,7 +593,7 @@ textarea {
 }
 
 .contact_form textarea::placeholder {
-  font-family: 'Poppins'sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -624,4 +619,3 @@ textarea {
 .btn3 {
   background-color: #f4f4f4;
 }
-
