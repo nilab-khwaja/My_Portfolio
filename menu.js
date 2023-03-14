@@ -1,8 +1,10 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.menu');
+const body = document.querySelector('body');
 function mobileMenu() {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
+  body.classList.toggle('scroll-lock');
 }
 hamburger.addEventListener('click', mobileMenu);
 

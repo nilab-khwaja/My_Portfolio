@@ -7,7 +7,7 @@
 
 body {
   background-color: #fff;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .main {
@@ -58,6 +58,8 @@ body {
   display: block;
   cursor: pointer;
   color: blue;
+  position: sticky;
+  z-index: 99999 !important;
 }
 
 .bar {
@@ -74,7 +76,7 @@ body {
 .menu {
   position: fixed;
   left: -100%;
-  top:0;
+  top: 0;
   padding-top: 100px;
   display: flex;
   flex-direction: column;
@@ -87,6 +89,9 @@ body {
   padding-bottom: 500px;
 }
 
+body.scroll-lock {
+  overflow: hidden;
+}
 
 .nav-link {
   color: #fff;
