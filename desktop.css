@@ -25,8 +25,7 @@
   }
 
   .menu {
-    margin-right: 100px;
-    padding: 5px;
+    display: none;
   }
 
   .logo {
@@ -34,18 +33,18 @@
     padding: 5px;
     transition: all 1s ease-in-out;
     font-size: 20px;
-    text-shadow: #4053fc;
   }
 
-  .menu ul {
+  .desktop-menu {
     display: flex;
+    margin-right: 100px;
     float: right;
     text-align: center;
     text-decoration: none;
     margin-left: 50px;
   }
 
-  .menu ul li {
+  .desktop-menu li {
     padding: 24px;
     color: #344563;
     font-weight: 500;
@@ -74,7 +73,7 @@
     font-size: 16px;
     text-decoration: none;
     padding: 0;
-    transition: all 0.5 ease-in;
+    transition: all 0.5s ease-in;
     top: -30px;
     height: auto;
   }
@@ -203,7 +202,7 @@
     margin-bottom: 20px;
     height: auto;
     gap: 0;
-    justify-items: auto;
+    justify-items: center;
   }
 
   .show-skill ul {
