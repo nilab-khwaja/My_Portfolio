@@ -48,7 +48,7 @@ const projects = [
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
     liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab.khwaja',
+    githubLink: 'https://github.com/nilab-khwaja',
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ const projects = [
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
     liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab.khwaja',
+    githubLink: 'https://github.com/nilab-khwaja',
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ const projects = [
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
     liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab.khwaja',
+    githubLink: 'https://github.com/nilab-khwaja',
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ const projects = [
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
     liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab.khwaja',
+    githubLink: 'https://github.com/nilab-khwaja',
   },
 ];
 
@@ -134,7 +134,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(company);
 
   const dot1 = document.createElement('img');
-  dot1.src = './assets/Counter.svg';
+  dot1.src = 'img/dot.svg';
   dot1.alt = 'dot';
   info.appendChild(dot1);
 
@@ -143,7 +143,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(role);
 
   const dot2 = document.createElement('img');
-  dot2.src = './assets/Counter.svg';
+  dot2.src = 'img/dot.svg';
   dot2.alt = 'dot';
   info.appendChild(dot2);
 
@@ -203,9 +203,9 @@ const ProjectPopup = (
     <h3 class="card-title">${title}</h3>
     <div class="card-info">
       <span class="info-active">${company}</span>
-      <img src="./assets/Counter.svg" alt="dot" />
+      <img src="img/dot.svg" alt="dot" />
       <span>${post}</span>
-      <img src="./assets/Counter.svg" alt="dot" />
+      <img src="./img/dot.svg" alt="dot" />
       <span>${year}</span>
     </div>
   </div>
@@ -226,11 +226,11 @@ const ProjectPopup = (
     <div class="pop-actions">
       <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
         <span>See live</span>
-        <img src="./assets/live-icon.svg" />
+        <img src="img/live-pop.svg" />
       </button>
       <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
         <span>See live</span>
-        <img src="./assets/github2.svg" />
+        <img src="img/github2.svg" />
       </button>
     </div>
   </div>
@@ -256,7 +256,7 @@ projects.forEach((aProject) => {
     );
     thePopupCardShows.innerHTML = htmlToInsert;
 
-    const overly = document.getElementById('#overly');
+    const overly = document.getElementById('overly');
     overly.classList.toggle('hidden');
     thePopupCardShows.classList.toggle('hidden-popup');
 
