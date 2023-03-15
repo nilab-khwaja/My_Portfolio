@@ -18,9 +18,7 @@ body {
   align-items: center;
 }
 
-.hidden {
-  display: none;
-}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -649,6 +647,12 @@ textarea {
   background-color: #f4f4f4;
 }
 
+/* style for popup window using js */
+
+.hidden {
+  display: none;
+}
+
 .works-container {
   display: grid;
   grid-template-columns: auto;
@@ -833,6 +837,7 @@ textarea {
     margin: 3% 3% !important;
     padding-left: 16px !important;
     padding-right: 16px !important;
+    overflow: scroll;
   }
 
   #popupCard .pop-img .card-img {
@@ -843,21 +848,7 @@ textarea {
   }
 }
 
-/* Medium screens */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* Styles for medium screens */
 
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-
-  .works-container {
-    gap: 100px;
-  }
-}
 
 /* Large screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -893,6 +884,7 @@ textarea {
   pointer-events: none;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  
 }
 
 #popupCard {
@@ -944,6 +936,7 @@ textarea {
   min-height: 40vh;
   height: 50vh;
   overflow: hidden;
+
 }
 
 .pop-img .card-img {
