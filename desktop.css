@@ -77,7 +77,9 @@
     top: -30px;
     height: auto;
   }
-
+  
+  
+  /*
   .cards {
     height: auto;
     width: 90%;
@@ -172,7 +174,7 @@
   .btn,
   .btn1 {
     transition: background 0.7s linear;
-  }
+  } */
 
   .about-myself {
     display: grid;
@@ -283,4 +285,6 @@
       height: 30px;
     }
   }
+
+
 }
