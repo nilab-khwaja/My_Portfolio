@@ -41,7 +41,7 @@ const projects = [
     company: 'CANOPY',
     post: 'Back End Dev',
     year: '2014',
-    image: 'img/desktop\ img\ 1.jpg',
+    image: 'img/desktop1.jpg',
     technologies: ['html', 'css', 'javascript'],
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -56,7 +56,7 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Full Stack Dev',
     year: '2015',
-    image: 'img/Desktop-card\ 2.jpg',
+    image: 'img/desktop2.jpg',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
@@ -71,7 +71,7 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Back End Dev',
     year: '2017',
-    image: 'img/Snapshoot\ Portfolio.jpg',
+    image: 'img/desktop3.jpg',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
@@ -86,7 +86,7 @@ const projects = [
     company: 'UBER',
     post: 'Full End Dev',
     year: '2019',
-    image: 'img/Snapshoot\ Portfolio\ \(1\).jpg',
+    image: 'img/desktop4.jpg',
     technologies: ['html', 'css', 'php', 'javascript'],
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
