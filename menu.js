@@ -224,12 +224,12 @@ const ProjectPopup = (
     </ul>
     <span class="span"></span>
     <div class="pop-actions">
-      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
+      <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
         <span>See live</span>
         <img src="img/live-pop.svg" />
       </button>
-      <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
-        <span>See live</span>
+      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
+        <span>See source</span>
         <img src="img/github2.svg" />
       </button>
     </div>
