@@ -272,17 +272,24 @@ projects.forEach((aProject) => {
 });
 // preserve data on browser
 
-const name = document.getElementById('name');
-const email =document.getElementById('email');
+const uName = document.getElementById('name');
+const uEmail = document.getElementById('email');
 const text = document.getElementById('text');
+const pForm = document.getElementById('form');
 
-form.addEventListener('change', () => {
+pForm.addEventListener('change', () => {
   const data = {
-    username: name.value,
-    useremail: email.value,
+    username: uName.value,
+    useremail: uEmail.value,
     message: text.value,
   };
   const userDataSerialized = JSON.stringify(data);
   localStorage.setItem('data', userDataSerialized);
-}) 
+});
 
+window.addEventListener('load', () => {
+  const userDataSerData = JSON.parse(localStorage.data);
+  uName.value = userDataSerData.username;
+  uEmail.value = userDataSerData.useremail;
+  text.value = userDataSerData.message;
+});
