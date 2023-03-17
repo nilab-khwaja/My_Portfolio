@@ -270,3 +270,9 @@ projects.forEach((aProject) => {
     });
   });
 });
+// preserve data on browser
+
+const name = document.getElementById('name');
+const email =document.getElementById('email');
+const text = document.getElementById('text');
+
