@@ -771,3 +771,11 @@ textarea {
 .hidden-popup {
   transform: scale(0);
 }
+
+.error-msg {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+}
