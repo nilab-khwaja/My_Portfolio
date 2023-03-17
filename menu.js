@@ -276,3 +276,13 @@ const name = document.getElementById('name');
 const email =document.getElementById('email');
 const text = document.getElementById('text');
 
+form.addEventListener('change', () => {
+  const data = {
+    username: name.value,
+    useremail: email.value,
+    message: text.value,
+  };
+  const userDataSerialized = JSON.stringify(data);
+  localStorage.setItem('data', userDataSerialized);
+}) 
+
