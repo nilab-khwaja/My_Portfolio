@@ -270,3 +270,26 @@ projects.forEach((aProject) => {
     });
   });
 });
+// preserve data on browser
+
+const uName = document.getElementById('name');
+const uEmail = document.getElementById('email');
+const text = document.getElementById('text');
+const pForm = document.getElementById('form');
+
+pForm.addEventListener('change', () => {
+  const data = {
+    username: uName.value,
+    useremail: uEmail.value,
+    message: text.value,
+  };
+  const userDataSerialized = JSON.stringify(data);
+  localStorage.setItem('data', userDataSerialized);
+});
+
+window.addEventListener('load', () => {
+  const userDataSerData = JSON.parse(localStorage.data);
+  uName.value = userDataSerData.username;
+  uEmail.value = userDataSerData.useremail;
+  text.value = userDataSerData.message;
+});
