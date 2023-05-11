@@ -37,18 +37,18 @@ function limitWords(paragraph, limit) {
 const projects = [
   {
     id: 1,
-    title: 'Tonic',
-    company: 'CANOPY',
-    post: 'Back End Dev',
-    year: '2014',
-    image: 'img/desktop1.jpg',
+    title: 'To-Do list',
+    company: 'Dev',
+    post: 'Front End Dev',
+    year: '2023',
+    image: 'img/new project for portfolio.png',
     technologies: ['html', 'css', 'javascript'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      '"To-do list" is a tool that helps to organize your day.',
     details:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://nilab-khwaja.github.io/My_Portfolio/',
-    githubLink: 'https://github.com/nilab-khwaja/My_Portfolio',
+      'The to-do application built using JavaScript, HTML, and CSS is a powerful tool designed to help users organize their daily tasks efficiently. With its intuitive user interface and robust functionality, this application allows users to add activities to their daily schedule and mark them as complete once they are finished. The app primary feature is its ability to organize a day by adding activities into a task list. Users can easily add new tasks by typing them into the input field provided.Once a task is completed, users can mark it as done by clicking on the checkbox next to it. This feature helps users keep track of their progress and stay motivated throughout the day.In addition to marking tasks as complete, the app also provides users with the ability to edit or delete tasks as needed. This feature ensures that users can make changes to their schedule quickly and easily without having to start over from scratch.',
+    liveVersion: 'https://nilab-khwaja.github.io/To-Do-List/',
+    githubLink: 'https://github.com/nilab-khwaja/To-Do-List',
   },
   {
     id: 2,
